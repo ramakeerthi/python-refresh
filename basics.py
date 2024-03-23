@@ -19,5 +19,9 @@ l = ["Bob", "Rolf", "Anne"]
 t = ("Bob", "Rolf", "Anne")
 s = {"Bob", "Rolf", "Anne"}
 
+test_set = set()
+
+print(f"Set is {test_set}")
+
 print(f"First element in list is {l[0]}")
 print ("Second element in tuple is {}".format(t[1]))
