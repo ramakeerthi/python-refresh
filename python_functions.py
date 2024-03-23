@@ -3,3 +3,8 @@ def user_age_in_seconds(age_in_years):
 
 age = int(input("Enter age in years"))
 print(user_age_in_seconds(age))
+
+def say_hello(name,surname="DOg"):
+    print(f"Hello, {name} {surname}")
+
+say_hello(name="John")
